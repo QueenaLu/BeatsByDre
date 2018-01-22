@@ -7,6 +7,10 @@ font-family: 'Oswald', sans-serif;
 font-family: 'Nunito Sans', sans-serif;
  */
 
+ /* * * * * * * * * * * * * * * * * * * *
+Genernal styles
+ * * * * * * * * * * * * * * * * * * * */
+
 
 h1, h2, h3{
      font-family: 'Nunito Sans', sans-serif;
@@ -33,11 +37,22 @@ button{
      font-size: 12px;
 }
 
+/* * * * * * * * * * * * * * * * * * * *
+Header styles
+* * * * * * * * * * * * * * * * * * * */
 
 header{
     height: 80px;
     background-color: #161616;
+    padding-top: 20px;
 }
+header .logo{
+    background-image: url("../beats-assets/img/logo.svg");
+    height: 40px;
+    width: 40px;
+    background-size: 40px;
+}
+
 
 .hero{
     height: 400px;
