@@ -32,3 +32,38 @@ button{
      font-family: 'Oswald', sans-serif;
      font-size: 12px;
 }
+
+
+header{
+    height: 80px;
+    background-color: #161616;
+}
+
+.hero{
+    height: 400px;
+    background-color: #999;
+}
+.product-lineup-container{
+    height: 400px;
+    background-color: #333;
+}
+
+.featured-product-container{
+    height: 400px;
+    background-color: #444;
+}
+
+.product-suppport-container{
+    height: 400px;
+    background-color: #555;
+}
+
+.subscription-container{
+    height: 400px;
+    background-color: #666;
+}
+
+footer{
+    height: 400px;
+    background-color: #161616;
+}
