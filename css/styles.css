@@ -37,9 +37,10 @@ button{
      font-size: 12px;
 }
 
-/* * * * * * * * * * * * * * * * * * * *
-Header styles
-* * * * * * * * * * * * * * * * * * * */
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Genernal Header styles (both for desktop & mobile)
+* * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 header{
     height: 80px;
@@ -52,26 +53,30 @@ header .logo{
     width: 40px;
     background-size: 40px;
 }
-header ul{
+
+
+/* desktop-nav */
+
+.desktop-nav ul{
     float: right;
     margin-top: 10px;
     padding: 0;
     width: calc(100% - 60px);
     text-align: right;
 }
-header li{
+.desktop-nav li{
     display: inline-block;
     margin-left: 25px;
 }
-header a,
-header a:visited {
+.desktop-nav a,
+.desktop-nav a:visited {
     color: #ffffff;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
 }
-header a:hover,
-header a:focus,
-header a:active {
+.desktop-nav a:hover,
+.desktop-nav a:focus,
+.desktop-nav a:active {
     color: #ffffff;
     opacity: 0.9;
     text-decoration: none;
@@ -80,6 +85,9 @@ header a:active {
 .desktop-nav .logo{
     float: left;
 }
+
+
+/* mobile-nav */
 
 .mobile-nav{
     display: none;
@@ -90,8 +98,10 @@ header a:active {
 }
 .mobile-nav .hamburger-container,
 .mobile-nav .search-container{
+    vertical-align: top;
     width: 40px;
     display: inline-block;
+    margin-top: 8px;
     margin-left: -4px;
 }
 .mobile-nav .logo-container{
@@ -115,28 +125,50 @@ header a:active {
     }
 }
 
-/* * * * * * * * * * * * * * * * * * * *
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * *
 Hero styles
-* * * * * * * * * * * * * * * * * * * */
+* * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 .hero{
     height: 400px;
     background-color: #999;
 }
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Product-Lineup
+* * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
 .product-lineup-container{
     height: 400px;
     background-color: #333;
 }
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Featured-product
+* * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 .featured-product-container{
     height: 400px;
     background-color: #444;
 }
 
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Product-Support
+* * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
 .product-suppport-container{
     height: 400px;
     background-color: #555;
 }
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Subscription-Container
+* * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 .subscription-container{
     height: 400px;
